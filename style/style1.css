@@ -1,0 +1,73 @@
+#h{
+	background-image: url(../../auction/auctionsample/o1.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	width:1280px;
+	height: 720px;
+} 
+#am
+{
+	font-size: 30px;
+	font-family: Arial Black;
+	text-shadow: 2px 2px 5px black;
+	color:white;
+	text-align: center;
+}
+#fs
+{
+	margin:0px 470px 0px 420px;
+	text-align: center;
+	background-color: rgba(190,190,190,0.65);
+}
+#log
+{
+	font-family: "Arial Black";
+	text-shadow: 2px 2px 8px white;
+
+}
+#m
+{
+	padding: 10px 20px 20px 20px;
+}
+
+#input-group {
+	margin: 10px 10px 5px 0px;
+
+}
+#u
+{
+	margin:20px 0px 20px -10px;
+
+}
+#u1
+{
+	width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inherit;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+#btn {
+	padding: 10px;
+	font-size: 15px;
+	color: white;
+	background: #5F9EA0;
+	border: none;
+	border-radius: 5px;
+}
+#ft{
+	text-align: center;
+	font-style: italic;
+	font-stretch: expanded;
+	color: #9ACD32;	
+	width:25px;
+	clear:both;
+	text-align:center;
+	width:1280px;
+	padding-bottom: 30px;
+	font-size: 20px;
+	text-shadow: 2px 2px 8px black;
+
+}

@@ -1,0 +1,93 @@
+@import url(normalize.css);
+#h{
+	background-image: url(../../auction/auctionsample/oa.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	width:100%;
+	height: auto;
+}
+ 
+#hh{
+	text-align: center;
+	font-style: italic;
+	font-size: 40px;
+	font-stretch: expanded;
+	font-weight: bold;
+	color: #FF0000;
+	width: 100%;
+	height: auto;
+}
+
+#ft{
+	text-align: center;
+	font-style: italic;
+	color: red;
+	width:100%;
+	clear:both;
+	text-align:center;
+	overflow: hidden;
+	padding-bottom: 30px;
+	font-size: 20px;
+	font-weight: 700px;
+}
+#mn{
+	padding: 0px 10px 30px 60px;
+	width:1300px;
+	height: 60px;
+	margin: 60px auto;
+}
+#mn ul{
+	padding: 0;
+	margin: 0;
+}
+#mn ul li{
+	list-style:none; 
+	float: left;
+	padding: 0;
+	margin: 0; 
+	position:relative;
+}
+#mn ul li a{
+text-decoration: none;
+padding: 0 45px;
+background-color: #FFF5EE;
+line-height: 40px;
+line-width: 35px;
+display: block;
+border-right:1px solid #000 
+}
+#mn ul li a:hover{
+background-color: yellow; 
+}
+#mn ul li ul{
+visibility: hidden;
+position: absolute
+}
+#mn ul li:hover ul{
+visibility: visible;
+
+}
+#mn ul li ul li{
+width:150px;
+
+}
+#mn ul li ul li a{
+ border: 0px;
+}
+#mn ul li:hover ul li ul{
+visibility: hidden;
+
+}
+#mn ul li ul li:hover ul{
+visibility: visible;
+}
+#logo{
+
+  	padding: 0px 80px;
+	width:200px;
+	height: 40px;
+	margin: 0px auto;
+	float: left;
+
+
+}

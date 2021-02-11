@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registration Form</title>
+	<meta charset="utf-8">
+
+</head>
+<header>
+<h1 id="am"> Auction Management System </h1>
+<link rel="stylesheet" type="text/css" href="../auction/style/style1.css">
+<body id="h">
+<div>
+	<fieldset id="fs">
+		<legend id="log">Registration</legend>
+
+	<form  method="post" action="../auction/connection/insertreg.php" >
+
+		<div id="input-group">
+		<label id="u">First Name :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </label>
+		<input type="text" name="fname">
+		<p>
+			<label id="u">Last Name : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</label>
+			<input type="text" name="lname"></p>
+	</div>
+	<div id="input-group">
+		<label id="u">Date Of Birth : </label>
+		<input type="Date" name="dob" required="dob">
+	</div>
+	<div id="input-group">
+		<label id="u">NID No :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </label>
+		<input type="Number" name="nin" required="nin" placeholder="national Id" autocomplete="off">
+	</div>
+	<div id="input-group">
+		<label id="u">Contact No :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </label>
+		<input type="tel" name="phone" placeholder="start with+880" required="phone">
+	</div>
+	<div id="input-group">
+		<label id="u">Email :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </label>
+		<input type="email" name="email" autofocus name="email">
+	</div>
+	<div id="input-group">
+		<label id="u">Website :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; </label>
+		<input type="link" name="web" >
+	</div>
+	<div id="input-group">
+		<label id="u">User Name :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;  </label>
+		<input type="text" name="uname" required="uname">
+	</div>
+	<div id="input-group">
+		<label id="u">User Type: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </label>
+		<select name="utype">
+			<option>--Select--</option>
+			<option>Admin</option>
+			<option>Seller</option>
+			<option>Bidder</option>
+		</select>
+	</div>
+	<div id="input-group">
+		<label id="u">Password:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; </label>
+		<input type="password" name="pass" required="pass" >
+	</div>
+	<div id="input-group">
+		<label id="u">Gender: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </label>
+		Male:<input type="radio" name="gender" id="" value="male" id="s">Female: <input type="radio" name="gender" id="" value="female" id="s"></label>
+	</div>
+	<div id="input-group">
+		<label id="u">Language Preferences:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  </label>
+		<label id="c">Bangla:<input type="Checkbox" name="language"value="Bangla">English:<input type="Checkbox" name="language"value="English"><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Hindi:<input type="Checkbox" name="language"  value="Hindi">Urdu:<input type="Checkbox" name="language"  value="Urdu"><br/></label>
+	</div>
+	<div id="input-group">
+		<label id="u">Country:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  </label>
+		<select id="sc" id="s" name="country">
+					<option> --Select Country--</option>
+					<option>Bangladesh</option>
+					<option>India</option>
+					<option>Pakistan</option>
+					<option>Sri-lanka</option>
+					<option>Nepal</option>
+					<option>Bhutan</option>
+					<option>Maldivs</option>
+					<option>Afganistan</option>
+			
+		</select>
+	</div>
+	<div id="input-group">
+		<div id="input-group">
+		<label id="u">Address :&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;</label>
+		<input type="text" name="address" id="m">
+	</div>
+	<div id="input-group">
+
+		<input type="Hidden" name="id" >
+	</div>
+		<button type="submit" id="btn" name="submit">Register</button> <input type="Reset" name="Reset" id="btn">
+		<a href="index.php">Back</a>
+	</div>
+
+</form>
+</fieldset>
+</div>
+</header>
+<div >
+	<footer id="ft">
+		Copyright Reserved @Md. Abir Hasan ID: 17203067 <br/>
+		Student of IUBAT University
+	</footer>
+</div>
+</body>
+
+</html>

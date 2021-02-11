@@ -1,0 +1,23 @@
+#frm
+{
+	margin: 0px 50px;
+	float:left;
+	font-size: 15px
+background-color:#FAEBD7;
+
+}
+#input-group
+{
+	
+	#input-group {
+	margin: 10px 0px 10px 0px;
+}
+#btn {
+	padding: 10px;
+	font-size: 15px;
+	color: #FAEBD7;
+	background: #5F9EA0;
+	border: none;
+	border-radius: 5px;
+}
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Welcome</title>
+	<meta charset="utf-8">
+
+	<link rel="stylesheet" type="text/css" href="../auction/style/style.css">
+</head>
+<body id="h">
+	<div id="hh"><marquee behavior="alternate" >Welcome to Bidder Homepage</marquee></div>
+	 <?php
+     session_start();
+     $data=$_SESSION['userid'];
+     echo $data['uname'];
+       ?>
+
+<div >
+	<img id="logo" src="../auction/auctionsample/bid.jpg" >
+<nav id="mn">
+	<ul >
+		<li><a href="../auction/bidderindex.html">Home</a></li>
+		<li><a href="#">Join Auction</a>
+		<ul>
+				<li><a href="../auction/bidderindex.html">Property</a></li>
+				<li><a href="../auction/bidderindex.html">Jewelry</a></li>
+				<li><a href="../auction/bidderindex.html">Electronics</a></li>
+				<li><a href="../auction/bidderindex.html">Car</a></li>
+			</ul>
+		</li>
+		<li><a href="#">Status</a>
+			<ul>
+				<li><a href="#">Upcoming Auction</a></li>
+				<li><a href="#">Joining Status</a></li>
+				<li><a href="#">Highest Bidder</a></li>
+
+			</ul>
+
+		</li>
+		<li><a href="#">Notification</a></li>
+		<li><a href="#">Search</a></li>
+		<li><a href="../auction/index.html">Logout</a></li>
+	</ul>
+</nav>
+</div>
+</header>
+
+<div >
+	<footer id="ft">
+		Copyright Reserved @Md. Abir Hasan ID: 17203067 <br/>
+		Student of IUBAT University
+	</footer>
+</div>
+</body>
+</html>
